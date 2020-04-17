@@ -11,20 +11,25 @@ body {
     min-height: 100%;
 }
 
+.heading{
+    margin:0;
+}
+
 .content {
     max-width:960px;
-    margin:20px auto;
+    width:100%;
+    margin:0 auto;
     background-color: #3399cc;
     color:#fff;
-    padding:20px 150px 40px 150px;
+    padding:25px 10px;
 }
 
 .weather__list {
     font-size: 0;
     text-align:center;
-    margin:20px 0;
+    margin:10px 20px;
     list-style: none;
-    padding:50px;
+    padding:0;
    
 }
 
@@ -102,8 +107,6 @@ li:nth-child(11){
     background-color: #666699;
 }
 
-
-
 .wi {
     font-size: 30px;
     color:#bfdfef
@@ -115,7 +118,7 @@ span{
 }
 
 span.after {
-    font-size: 14px;
+    font-size: 20px;
     color:white;
 }
 
